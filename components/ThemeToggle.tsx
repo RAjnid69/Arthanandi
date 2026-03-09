@@ -7,7 +7,11 @@ export default function ThemeToggle() {
 
   useEffect(() => {
     const root = document.documentElement;
-    dark ? root.classList.add("dark") : root.classList.remove("dark");
+    if (dark) {
+      root.classList.add("dark");
+    } else {
+      root.classList.remove("dark");
+    }
   }, [dark]);
 
   return (

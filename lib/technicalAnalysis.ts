@@ -257,7 +257,7 @@ export function findSupportResistance(prices: number[]): SupportResistance {
 
 // ─── Pattern Detection ───────────────────────────────────────────────
 
-export function detectPatterns(prices: number[], symbol: string): PatternResult[] {
+export function detectPatterns(prices: number[]): PatternResult[] {
     const results: PatternResult[] = [];
     const len = prices.length;
     if (len < 20) return results;

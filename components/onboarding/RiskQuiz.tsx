@@ -5,15 +5,15 @@ import { FaChevronRight, FaCheckCircle, FaShieldAlt, FaRocket, FaBalanceScale } 
 
 interface QuizStep {
     question: string;
-    options: { label: string; value: string; icon?: any }[];
+    options: { label: string; value: string; icon?: React.ComponentType<{ className?: string }> }[];
 }
 
-export default function RiskQuiz({ onComplete }: { onComplete: (profile: any) => void }) {
+export default function RiskQuiz({ onComplete }: { onComplete: (profile: { riskAppetite: string; timeframe: string; reactivity: string }) => void }) {
     const [step, setStep] = useState(0);
     const [profile, setProfile] = useState({
-        ageRange: "",
-        capital: "",
-        riskAppetite: ""
+        riskAppetite: "",
+        timeframe: "",
+        reactivity: ""
     });
 
     const steps: QuizStep[] = [
@@ -44,7 +44,7 @@ export default function RiskQuiz({ onComplete }: { onComplete: (profile: any) =>
     ];
 
     const handleOptionSelect = (value: string) => {
-        const keys = ["riskAppetite", "timeframe", "reactivity"];
+        const keys = ["riskAppetite", "timeframe", "reactivity"] as const;
         const newProfile = { ...profile, [keys[step]]: value };
         setProfile(newProfile);
 

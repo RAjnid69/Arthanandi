@@ -29,7 +29,7 @@ import {
     generateMACDSeries,
     generateBollingerSeries,
 } from "@/lib/technicalAnalysis";
-import { FaChartLine, FaFlask, FaNewspaper, FaBoxes } from "react-icons/fa";
+import { FaChartLine, FaFlask, FaNewspaper } from "react-icons/fa";
 
 const TIMEFRAMES = [
     { label: "1D", days: 1 },

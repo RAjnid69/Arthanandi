@@ -27,7 +27,7 @@ export default function DashboardPage() {
     }
   }, []);
 
-  const handleQuizComplete = (profile: any) => {
+  const handleQuizComplete = (profile: { riskAppetite: string; timeframe: string; reactivity: string }) => {
     localStorage.setItem("artnanandi_risk_profile", JSON.stringify(profile));
     setShowQuiz(false);
   };

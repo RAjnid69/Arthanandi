@@ -150,7 +150,7 @@ export default function Sidebar() {
               <span className="text-[10px] font-bold text-[var(--text-primary)] uppercase tracking-wider">Investor PRO</span>
             </div>
             <p className="text-[10px] text-[var(--text-muted)] leading-tight mb-3">
-              Unlock the Neural Engine's full potential.
+              Unlock the Neural Engine&apos;s full potential.
             </p>
             <Link
               href="/pro"

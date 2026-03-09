@@ -104,7 +104,7 @@ export default function AIHubPage() {
                                 <div className="space-y-2">
                                     <h4 className="text-sm font-bold text-[var(--text-primary)]">How Arthanandi Calculates Accuracy</h4>
                                     <p className="text-xs text-[var(--text-muted)] leading-relaxed">
-                                        A signal is marked as <span className="text-positive font-bold">\"Correct\"</span> if the price moves &gt;1.5% in the predicted direction within 7 trading days.
+                                        A signal is marked as <span className="text-positive font-bold">&quot;Correct&quot;</span> if the price moves &gt;1.5% in the predicted direction within 7 trading days.
                                         Our 78% win rate is benchmarked against NEPSE 2022-2026 historical volatility.
                                         <br />
                                         <span className="italic opacity-70">* Past performance is not indicative of future results. Markets are inherently stochastic.</span>
@@ -489,7 +489,7 @@ export default function AIHubPage() {
                         </div>
                         <div className="h-64 p-4 overflow-y-auto space-y-4 bg-[var(--surface-elevated)]/50">
                             <div className="bg-[var(--surface-elevated)] p-3 rounded-xl border border-[var(--border)]">
-                                <p className="text-xs text-[var(--text-secondary)] italic">\"How can I help you with your Nepalese stock strategy today? Try asking about NABIL Buy signals or the current Hydropower sentiment.\"</p>
+                                <p className="text-xs text-[var(--text-secondary)] italic">&quot;How can I help you with your Nepalese stock strategy today? Try asking about NABIL Buy signals or the current Hydropower sentiment.&quot;</p>
                             </div>
 
                             {/* Pro Teaser: Priority Alerts */}

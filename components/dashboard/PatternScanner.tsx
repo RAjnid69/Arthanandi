@@ -20,7 +20,7 @@ export default function PatternScanner() {
         STOCKS.forEach(s => {
             const hist = generateHistoricalData(s.ltp, 60);
             const prices = hist.map(h => h.price);
-            const detected = detectPatterns(prices, s.symbol);
+            const detected = detectPatterns(prices);
             detected.forEach(p => {
                 results.push({ symbol: s.symbol, name: s.name, pattern: p });
             });

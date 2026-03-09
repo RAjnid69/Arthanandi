@@ -5,7 +5,7 @@ import Sidebar from "@/components/dashboard/Sidebar";
 import Topbar from "@/components/dashboard/Topbar";
 import { STOCKS, SECTORS } from "@/lib/mockData";
 import Link from "next/link";
-import { FaFilter, FaSearch, FaArrowRight, FaSortAmountDown } from "react-icons/fa";
+import { FaFilter, FaSearch, FaArrowRight } from "react-icons/fa";
 
 export default function ScreenerPage() {
     const [search, setSearch] = useState("");

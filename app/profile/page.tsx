@@ -2,7 +2,7 @@
 
 import Sidebar from "@/components/dashboard/Sidebar";
 import Topbar from "@/components/dashboard/Topbar";
-import { FaUser, FaEnvelope, FaShieldAlt, FaBell, FaSignOutAlt, FaCrown } from "react-icons/fa";
+import { FaEnvelope, FaShieldAlt, FaBell, FaSignOutAlt, FaCrown } from "react-icons/fa";
 
 export default function ProfilePage() {
     const user = {

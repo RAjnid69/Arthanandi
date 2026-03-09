@@ -10,9 +10,8 @@ import {
     ResponsiveContainer,
 } from "recharts";
 import { generateAIPrediction } from "@/lib/mockData";
-import { FaRobot, FaMagic, FaChartBar } from "react-icons/fa";
+import { FaRobot, FaMagic } from "react-icons/fa";
 import ProFeatureLock from "../common/ProFeatureLock";
-import ProBadge from "../common/ProBadge";
 
 interface AIPredictionProps {
     symbol: string;

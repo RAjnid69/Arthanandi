@@ -3,8 +3,7 @@
 import Sidebar from "@/components/dashboard/Sidebar";
 import Topbar from "@/components/dashboard/Topbar";
 import ProBadge from "@/components/common/ProBadge";
-import { FaCrown, FaCheck, FaBolt, FaRobot, FaSignal, FaBell, FaGlobeAmericas, FaShieldAlt } from "react-icons/fa";
-import Link from "next/link";
+import { FaCrown, FaCheck, FaBolt, FaSignal, FaBell, FaGlobeAmericas, FaShieldAlt } from "react-icons/fa";
 
 const FEATURES = [
     {
@@ -51,7 +50,7 @@ export default function ProLandingPage() {
                                 <span className="gradient-text">Arthanandi Edge</span>
                             </h1>
                             <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto leading-relaxed">
-                                Join Kathmandu's elite traders. Get institutional-grade AI analytics, instant alerts, and advanced risk management tools.
+                                Join Kathmandu&apos;s elite traders. Get institutional-grade AI analytics, instant alerts, and advanced risk management tools.
                             </p>
                         </div>
 

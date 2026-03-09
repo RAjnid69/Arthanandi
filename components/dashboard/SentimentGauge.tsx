@@ -4,9 +4,8 @@ import { useMemo, useState, useEffect } from "react";
 import { STOCKS, generateHistoricalData } from "@/lib/mockData";
 import { calculateMarketSentiment } from "@/lib/technicalAnalysis";
 import { FaCompass, FaExclamationTriangle } from "react-icons/fa";
-import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import { AreaChart, Area, ResponsiveContainer } from "recharts";
 import ProFeatureLock from "../common/ProFeatureLock";
-import ProBadge from "../common/ProBadge";
 
 export default function SentimentGauge() {
     const [mounted, setMounted] = useState(false);

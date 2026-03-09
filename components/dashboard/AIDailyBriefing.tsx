@@ -60,7 +60,7 @@ export default function AIDailyBriefing() {
                                 Good afternoon, <span className="gradient-text">Investor</span>
                             </h2>
                             <p className="text-xs text-[var(--text-muted)] mt-1 italic">
-                                \"LSTM-Attention Hybrid identifies a potential liquidity squeeze in Hydropower; watch the 2100 level on NEPSE Index.\"
+                                &quot;LSTM-Attention Hybrid identifies a potential liquidity squeeze in Hydropower; watch the 2100 level on NEPSE Index.&quot;
                             </p>
                         </div>
                         <button
