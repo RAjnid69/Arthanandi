@@ -3,7 +3,7 @@
 import Sidebar from "@/components/dashboard/Sidebar";
 import Topbar from "@/components/dashboard/Topbar";
 import ProBadge from "@/components/common/ProBadge";
-import { FaCrown, FaCheck, FaBolt, FaSignal, FaBell, FaGlobeAmericas, FaShieldAlt } from "react-icons/fa";
+import { FaCrown, FaCheck, FaBolt, FaSignal, FaBell, FaGlobeAmericas, FaShieldAlt, FaBrain, FaHistory } from "react-icons/fa";
 
 const FEATURES = [
     {
@@ -28,7 +28,6 @@ const FEATURES = [
     }
 ];
 
-import { FaBrain, FaHistory } from "react-icons/fa";
 
 export default function ProLandingPage() {
     return (
